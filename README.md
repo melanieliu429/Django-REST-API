@@ -27,6 +27,7 @@ python manage.py migrate
 python manage.py runserver
 
 🌍 API Endpoints
+
 GET /api/actions/
 ✅ Response Example:
 [
