@@ -15,15 +15,21 @@ A simple Django REST API to **create, retrieve, update, and delete** sustainabil
 
 ### 1️⃣ Install Dependencies
 git clone https://github.com/melanieliu429/Django-REST-API.git
+
 cd Django-REST-API
+
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
 
 2️⃣ Apply Migrations
+
 python manage.py migrate
 
 3️⃣ Start the Server
+
 python manage.py runserver
 
 🌍 API Endpoints
